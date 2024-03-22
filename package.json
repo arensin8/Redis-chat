@@ -2,16 +2,14 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.19.1",
-    "redis": "^4.6.13",
+    "redis": "^3.1.2",
     "socket.io": "^4.7.5"
   },
   "name": "redis-chat",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",

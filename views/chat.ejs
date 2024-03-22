@@ -17,7 +17,7 @@
     </div>
     <script src="/socket.io/socket.io.js"></script>
     <script>
-        const socket = io("http://localhost:4001");
+        const socket = io("http://localhost:3000");
         document.getElementById('sendBtn').addEventListener('click' , () => {
             const message = document.getElementById('message').value;
             socket.emit('message' , {username : "<%=username%>" , message})
